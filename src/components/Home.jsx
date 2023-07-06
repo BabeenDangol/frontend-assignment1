@@ -12,11 +12,9 @@ export default function Home() {
                         <p className="card-text">Check Out our New Products</p>
                     </div>
                 </div>
-                <div>
-                    <Product />
-                </div>
+              
             </div>
-
+            <Product />
         </div>
     )
 }
