@@ -9,7 +9,7 @@ const Products = ()=> {
     useEffect(() => {
         const getProducts = async () => {
             setLoading(true);
-           
+
                 const response = await fetch(`http://fakestoreapi.com/products/${id}`);
                 const data = await response.json();
                 setProduct(data);
@@ -47,6 +47,9 @@ const Products = ()=> {
               ${product.price}
             </h3>
             <p className="lead">{product.description}</p>
+            <button className="btn btn-outile-dark">
+              Add to Cart
+            </button>
             </div>
             </>
         )

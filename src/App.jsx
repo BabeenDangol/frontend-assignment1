@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Product from './components/Product'
 import Home from './components/Home'
 import Products from './components/Products'
+import Search from './components/search'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
         <Route path="/products/:id" element={<Products />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
     </Router>
     </div>
