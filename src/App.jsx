@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import './components/Navbar'
 import Navbar from './components/Navbar'
-import Product from './components/product'
+import Product from './components/Product'
 import Home from './components/Home'
 import Products from './components/Products'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
