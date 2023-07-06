@@ -62,7 +62,7 @@ const filterProductes = (cat)=>{
                                     <div class="card-body">
                                         <h5 class="card-title mb-0 ">{product.title.substring(0,12) }</h5>
                                         <p class="card-text">${product.price}</p>
-                                        <Link to={`/products/${id}`} class="btn btn-outline-dark">Buy Now</Link>
+                                        <Link to = {`/products/${product.id}`} class="btn btn-outline-dark">Buy Now</Link>
                                     </div>
                                 </div>
                             </div>
