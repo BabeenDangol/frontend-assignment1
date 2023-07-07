@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import Product from './components/Product'
 import Home from './components/Home'
 import Products from './components/Products'
-import Search from './components/Search'
+import Search from './components/search'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
