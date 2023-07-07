@@ -19,7 +19,7 @@ const Navbar = () => {
                                 <Link className="nav-link" aria-current="page" to="/product">Product <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/search">Search</Link>
+                                <Link className="nav-link" to="#">Search</Link>
                             </li>
                         </ul>
                         <div className="buttons">
